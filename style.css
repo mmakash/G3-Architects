@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Header css start */
 .logo{
     color: #131313;
     font-size: 45px;
@@ -34,12 +35,49 @@ li{
     font-weight: 500;
     color: #424242;
 }
+/* Header css End */
+
+/* Banner section start */
+.banner{
+    background-color: #FF900E1A;
+}
+.banner-text{
+    text-align: center;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700px;
+    margin-bottom: 1rem;
+}
+.banner-description{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.btn{
+    width: 11.25rem;
+    height: 4rem;
+    background-color: #FF900E;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.banner-image-section{
+    width: 80%;
+    margin: 0 auto;
+}
+.banner img{
+    width: 100%;
+}
+/* Banner section end */
+
 /* Media Quaries Section */
 @media screen and (max-width:576px) {
     header{
         flex-direction: column;
         width: auto;
-        margin: 5px;
+        padding: 5px;
     }   
     nav ul{
         flex-direction: column;
