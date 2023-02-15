@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FF900E1A;
+    height: auto;
+    align-items: center;
+}
+nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    padding: 3rem;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+}
+/* Media Quaries Section */
+@media screen and (max-width:576px) {
+    header{
+        flex-direction: column;
+        width: auto;
+        margin: 5px;
+    }   
+    nav ul{
+        flex-direction: column;
+    } 
+    nav ul li{
+        padding: 5px;
+    }
+}
