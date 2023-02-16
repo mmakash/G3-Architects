@@ -181,6 +181,50 @@ li{
     bottom: 80px;
 }
 /* Feature List Section End */
+/* Facts section start */
+.facts-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.facts{
+    display: flex;
+    justify-content: space-around;
+}
+.fact{
+    text-align: center;
+    border: 3px solid orange;
+    padding: 5px;
+}
+.fact img{
+    width: 45px;
+    height: 45px;
+}
+.fact-number{
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+}
+.fact-description{
+    font-size: 20px;
+    font-weight: 500;
+    color: #727272;
+}
+.facts-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.facts-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+.facts-text{
+    margin-bottom: 6.25rem;
+    margin-left: 3.75rem;
+}
+/* Facts section end */
 
 /* Media Quaries Section */
 @media screen and (max-width:576px) {
@@ -218,5 +262,19 @@ li{
         bottom: -75px;
         left: 80px;
         width: 70%;
+    }
+    .facts-container{
+        width: 100%;
+        margin: 0;
+    }
+    .facts-text{
+        margin-top: 6.25rem;
+        text-align: center;
+    }
+    .facts{
+        flex-direction: column;
+    }
+    .fact{
+        margin: 5px 0px;
     }
 }
