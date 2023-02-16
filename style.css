@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Header css start */
+/* --------Header css start---------- */
 .logo{
     color: #131313;
     font-size: 45px;
@@ -35,9 +35,9 @@ li{
     font-weight: 500;
     color: #424242;
 }
-/* Header css End */
+/* ----------Header css End----------- */
 
-/* Banner section start */
+/* ------Banner section start--------- */
 .banner{
     background-color: #FF900E1A;
 }
@@ -71,9 +71,9 @@ li{
     width: 100%;
     margin-bottom: 10px;
 }
-/* Banner section end */
+/* --------Banner section end--------- */
 
-/* Feature section start*/
+/* -----------Feature section start-------*/
 
 .feature-container{
     width: 80%;
@@ -119,8 +119,8 @@ li{
 }
 
 
-/* Feature section end*/
-/* Feature List section start */
+/* -----------Feature section end------------*/
+/* ------------Feature List section start------------ */
 .feature-list-section{
     display: flex;
     width: 80%;
@@ -180,8 +180,8 @@ li{
     left: -45px;
     bottom: 80px;
 }
-/* Feature List Section End */
-/* Facts section start */
+/* ---------Feature List Section End------------ */
+/* ---------Facts section start--------- */
 .facts-container{
     width: 80%;
     margin: 0 auto;
@@ -224,8 +224,8 @@ li{
     margin-bottom: 6.25rem;
     margin-left: 3.75rem;
 }
-/* Facts section end */
-/* sponspors section start */
+/* ----------Facts section end----------------- */
+/* ------------sponspors section start------------ */
 .my-sponspors{
     width: 80%;
     margin: 0 auto;
@@ -252,7 +252,39 @@ li{
 
 /* sponspors section end */
 
-/* footer section start */
+/* ----------Animated Facts Boxs CSS start -----------*/
+.fact {
+    animation: wiggle 2s linear infinite;
+  }
+  
+  /* Keyframes */
+  @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+
+/* ------------Animated Facts Boxs CSS end----------- */
+
+/* ------------footer section start-------- */
 footer{
     background-color: #FFF4E7;
     width: 80%;
@@ -265,9 +297,9 @@ footer p{
     font-weight: 400;
     color: #424242;
 }
-/* footer section end */
+/* ------------footer section end-------------- */
 
-/* Media Quaries Section */
+/* ----------------Media Quaries Section------------- */
 @media screen and (max-width:576px) {
     header{
         flex-direction: column;
@@ -327,5 +359,9 @@ footer p{
     }
     .sponspor{
         margin-bottom: 30px;
+    }
+    footer{
+        width: 100%;
+        padding: 2rem;
     }
 }
