@@ -225,7 +225,32 @@ li{
     margin-left: 3.75rem;
 }
 /* Facts section end */
+/* sponspors section start */
+.my-sponspors{
+    width: 80%;
+    margin: 0 auto;
+}
+.sponspors-text{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.sponspors-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.sponspors-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+.sponspors{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
 
+/* sponspors section end */
 /* Media Quaries Section */
 @media screen and (max-width:576px) {
     header{
@@ -276,5 +301,15 @@ li{
     }
     .fact{
         margin: 5px 0px;
+    }
+    .my-sponspors{
+        width: 100%;
+    }
+    .sponspors{
+        flex-direction: column;
+        text-align: center;
+    }
+    .sponspor{
+        margin-bottom: 30px;
     }
 }
