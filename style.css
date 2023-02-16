@@ -252,6 +252,38 @@ li{
 
 /* sponspors section end */
 
+/* My own section css start */
+.own-section{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF900E;
+    border-radius: 5px;
+    padding: 2rem 2rem;
+    margin-top: 10rem;
+}
+.own-section-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.own-section-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+.call-btn{
+    width: auto;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: #FF900E;
+}
+
+/* My own section css end */
+
 /* ----------Animated Facts Boxs CSS start -----------*/
 .fact {
     animation: wiggle 2s linear infinite;
@@ -290,6 +322,7 @@ footer{
     width: 80%;
     margin: 0 auto;
     padding: 2.5rem 23rem;
+    margin-top: 7rem;
 }
 footer p{
     text-align: center;
@@ -363,5 +396,11 @@ footer p{
     footer{
         width: 100%;
         padding: 2rem;
+    }
+    .own-section{
+        flex-direction: column;
+    }
+    .call-btn{
+        margin-top: 1.5rem;
     }
 }
